@@ -59,7 +59,7 @@
     
 .sec-A .texto{
     position: relative;
-    padding: 2vw 130px 0 130px;
+    padding: 0vw 50px 0 130px;
     width: 100%;
     height: 90vh;
     align-items: center;
@@ -71,7 +71,7 @@
 }
 .sec-A .texto h1{
     font-size: 1.8vw;
-    text-shadow: #90be6d 2px 3px;
+    /* text-shadow: #6d9ebe 2px 3px; */
         /* color | offset-x | offset-y */
     /* background-image: linear-gradient(to right, #f9c74f  0%, #90be6d 100%); */
 }
