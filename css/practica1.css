@@ -84,4 +84,16 @@ header{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    
+    color: #fff;
+}
+.portada > div{
+    padding: 12vw 0 0 6vw;
+    width: 50%;
+}
+.portada h1{
+    font-size: 5vw;
+}
+.portada p{
+    font-size: 1.4vw;
 }
