@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #F0EAD2 0%, #DDE5B6 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+ *  barra de navegación
+ */ 
+header{
+	width: 100%;
+    text-align: center;
+    position: sticky;
+}
+    .navegacion{
+        width: 100%;
+        /* margin: 30px auto; */
+        background: #fff;
+    }
+
+    /* los <ul> entro de la clase */
+    .navegacion ul{
+	    list-style: none;
+    }
+
+    /* los <li> dentro de menú */
+    .menu > li{
+        position: relative;
+        display: inline-block;
+    }
+
+    /* los <a> dentro de <li> y menú */
+    .menu > li > a{
+        display: block;
+        padding: 1.5vw 2vw;
+        /* top-bottom right-left */
+        color: #353535;
+        text-decoration: none;
+    }
+        .menu li a:hover{
+            color: #ADC178;
+            transition: all .2s;
+        }
+    /* 
+    * Submenú
+    */
+
+    .submenu{
+        position: absolute;
+        background: #333333;
+        /* width: 120%; */
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .submenu li a{
+        display: block;
+        padding: 30px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .menu li:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+    }
+
+/* 
+ * portada
+ */
+.img_portada{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(244, 59, 71, 0.5) 0%, rgb(173, 193, 120, 0.3) 100%), 
+        url(https://www.elagoradiario.com/wp-content/uploads/2020/05/Rana-de-cristal-es-un-camuflaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
