@@ -7,7 +7,8 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #F0EAD2 0%, #ffd7c1 100%);
+    /* background-image: linear-gradient(to right, #f9c74f  0%, #90be6d 100%); */
+    background-color: rgb(255, 248, 225);
     font-family: 'Poppins', sans-serif;
 }
 

@@ -56,3 +56,25 @@
     .sec-A .cont-slider .btn-slider-right{
         right: 10px;
     }
+    
+.sec-A .texto{
+    position: relative;
+    padding: 2vw 130px 0 130px;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.2vw;
+    
+    color: #202020;
+    
+}
+.sec-A .texto h1{
+    font-size: 1.8vw;
+    text-shadow: #90be6d 2px 3px;
+        /* color | offset-x | offset-y */
+    /* background-image: linear-gradient(to right, #f9c74f  0%, #90be6d 100%); */
+}
+.sec-A .texto p{
+    margin-bottom: 10px;
+}
