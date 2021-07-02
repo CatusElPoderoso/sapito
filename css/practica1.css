@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #F0EAD2 0%, #DDE5B6 100%);
+    background-image: linear-gradient(to right, #F0EAD2 0%, #ffd7c1 100%);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body{
 header{
 	width: 100%;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
 }
     .navegacion{
         width: 100%;

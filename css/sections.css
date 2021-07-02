@@ -10,7 +10,7 @@
 .sec-A .cont-slider{
     width: 90%;
     max-width: 400px;
-    margin: auto;
+    margin: right;
     overflow: hidden;
 }
 .sec-A .cont-slider > div{
