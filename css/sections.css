@@ -86,7 +86,7 @@
     position: relative;
     padding: 130px 100px 0 100px;
         /* top right bottom left */
-    width: 100%;
+    width: 90%;
     max-width: 1400px;
     align-items: center;
     margin: auto;
@@ -100,8 +100,8 @@
     justify-content: space-between;
 }
 .sec-B .cont-portafolio .obj-portafolio{
-    width: 350px;
-    height: 210px;
+    width: 250px;
+    height: 400px;
 }
 .sec-B .cont-portafolio .obj-portafolio img{
     width: 100%;
