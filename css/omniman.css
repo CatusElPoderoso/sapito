@@ -13,13 +13,18 @@ body{
 
 .omniman{
     position: relative;
-    width: 40%;
     max-width: 1400px;
     align-items: center;
     margin: auto;
+    width: 20%;
+}
+.omniman div{
+    position: relative;
+    height: 330px;
 }
 .omniman div > img {
     height: 100%;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
+    transition: all 0.3s;
 }
