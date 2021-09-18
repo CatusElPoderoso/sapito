@@ -14,6 +14,11 @@ playBtn.addEventListener('mouseover', function() {
 [].forEach.call(audios, function(audio) {
   // do whatever
   audio.play();
+
+/*   setInterval(function(){
+  img.src = './img/thick/thiccomniman.png';
+  }, 1000); */
+
 });
 }, false);
 
